@@ -5,3 +5,6 @@
 ### **1. Basic**
 A simple web page with a simple button that uses lodash to fill a list on click.
 The goal is to learn how to do a basic bundle with Webpack
+### **2. Modules**
+A node program with that has both CommonJS and ES6 modules. 
+The goal is to see how Webpack can handle both types of modules.
