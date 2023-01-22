@@ -37,7 +37,7 @@ Here we also have multiple goals
  - See how to integrate ESLint with Webpack
 
 ### **7. Micro Frontends**
-Multiple react applications working together as one movie booking appliocation.
+Multiple react applications working together as one movie booking application.
 Here we also have multiple goals
  - See how to setup micro frontend Webpack apps with Webpack Module Federation.
  - See how dinamically import component from another application.
