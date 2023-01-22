@@ -8,6 +8,9 @@ module.exports = {
         assetModuleFilename: "images/[hash][ext]",
         clean: true
     },
+    devServer: {
+      static: "./dist",
+    },
     module: {
         rules: [
             {
