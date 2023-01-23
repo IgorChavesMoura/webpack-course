@@ -1,5 +1,11 @@
 # Webpack course
 
+## You can run the Quickbook micro frontend app with docker compose
+
+```
+docker-compose build && docker-compose up
+```
+
 ## This is the I made to learn more about Webpack and how it makes the under the hood bundling for frameworks like React, Angular and Vue.
 
 ### **1. Basic**
