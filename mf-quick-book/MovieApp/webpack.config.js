@@ -59,6 +59,10 @@ module.exports = {
         type: "asset/resource",
       },
       {
+        test: /.(ttf|woff|woff2)$/,
+        type: "asset/resource",
+      },
+      {
         test: /\.webp$/i,
         use: ["file-loader","webp-loader"],
       },

@@ -1,0 +1,19 @@
+services:
+  quickbook-client:
+    image: quickbook-client
+    build: 
+      dockerfile: quickbook-client.Dockerfile
+    container_name: quickbook-client
+    ports:
+      - 9000:9000
+      - 3000:3000
+      - 3001:3001
+      - 3002:3002
+      - 3003:3003
+  quickbook-api:
+    image: quickbook-api
+    build: 
+      dockerfile: quickbook-api.Dockerfile
+    container_name: quickbook-api
+    ports:
+      - 5555:5555
